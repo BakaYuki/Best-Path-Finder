@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling Salesman Problem Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Best Route Finder</h1>
+        <!-- <h4>First Location = Starting location</h4>
+        <h4>Last Location = Ending Location</h4> -->
+        <form id="tspForm">
+            <div id="locationsContainer">
+                <input type="text" name="locations" placeholder="Starting Destination" required>
+                <input type="text" name="locations" placeholder="End Destination" required>
+            </div>
+            <button type="button" id="addLocationBtn">Add Another Location</button>
+            <button type="submit">Calculate Optimal Route</button>
+        </form>
+        <div id="result">
+            <h2>Optimal Route</h2>
+            <ul id="routeList"></ul>
+            <p id="distance"></p>
+            <a href="#" id="googleMapsLink" target="_blank">View on Google Maps</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
