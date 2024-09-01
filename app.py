@@ -5,7 +5,7 @@ from urllib.parse import quote_plus
 
 app = Flask(__name__)
 
-API_KEY = 'AIzaSyBsTlXvShS7Us3ISDD0O28NaN_5AdWZ5sc'
+API_KEY = ''
 
 # HTML CSS JS INTEGRATION
 # Serve the static HTML
